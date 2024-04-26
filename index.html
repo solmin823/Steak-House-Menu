@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Menu</title>
+    <style>
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #232323;
+            color: #ffffff;
+            text-align: center;
+            font-size: xx-large;
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .menu-item {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .menu-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .price {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Steak House</h1>
+    </header>
+
+    <section class="menu">
+        <div class="menu-item">
+            <h2>Tenderloin Steak</h2>
+            <p>Tenderloin with butter and garlic</p>
+            <p class="price">₱1,500</p>
+        </div>
+
+
+        <div class="menu-item">
+            <h2>Sirloin Steak</h2>
+            <p>Sirloin with butter and garlic</p>
+            <p class="price">₱1,500</p>
+        </div>
+
+
+        <div class="menu-item">
+            <h2>Ribeye Steak</h2>
+            <p>Ribeye with butter and garlic</p>
+            <p class="price">₱2,000</p>
+        </div>
+
+
+        <div class="menu-item">
+            <h2>Tomahawk Steak</h2>
+            <p>Tomahawk with butter and garlic</p>
+            <p class="price">₱4,000</p>
+        </div>
+
+
+        <div class="menu-item">
+            <h2>Aglio e Olio</h2>
+            <p>a combination of garlic and olive oil</p>
+            <p class="price">₱300</p>
+        </div>
+
+
+        <div class="menu-item">
+            <h2>Seafood Past</h2>
+            <p>A medly of fresh clams, shrimp and crab enhanced with herbs and olives</p>
+            <p class="price">₱500</p>
+        </div>
+
+
+        <div class="menu-item">
+            <h2>Vongole</h2>
+            <p>Flavorsof fresh clams, minced garlic, olive oil and white wine</p>
+            <p class="price">₱450</p>
+        </div>
+
+
+        <div class="menu-item">
+            <h2>Carbonara</h2>
+            <p>Fresh muchrooms and bacon strips sauteed with cream</p>
+            <p class="price">₱400</p>
+    </section>
+</body>
+
+</html>
